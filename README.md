@@ -1,11 +1,11 @@
 # react-native-wheel-of-fortune
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/516712bad4032cba5439/maintainability)](https://codeclimate.com/github/eftalyurtseven/react-native-wheel-of-fortune)
-[![Download](https://img.shields.io/npm/dm/react-native-wheel-of-fortune.svg)](https://github.com/eftalyurtseven/react-native-wheel-of-fortune)
+[![Download](https://img.shields.io/npm/dm/react-native-wheel-of-fortune.svg)](https://github.com/Cygnus-Digital-Innovations/react-native-spin-wheel)
 
 Wheel of fortune component for React Native
 
-![React Native Wheel Of Fortune](https://github.com/eftalyurtseven/react-native-wheel-of-fortune/raw/master/assets/images/wof.gif "React Native Wheel Of Fortune")
+![React Native Wheel Of Fortune](https://github.com/Cygnus-Digital-Innovations/react-native-spin-wheel/raw/master/assets/images/wof.gif "React Native Wheel Of Fortune")
 
 ## Installation
 
@@ -82,7 +82,7 @@ const wheelOptions = {
 <Button title="Press me" onPress={ () => { this.child._onPress() } } />
 ```
 
-For more information and test go to [/Example](https://github.com/eftalyurtseven/react-native-wheel-of-fortune/tree/master/Example) folder.
+For more information and test go to [/Example](https://github.com/Cygnus-Digital-Innovations/react-native-spin-wheel/tree/master/Example) folder.
 
 ## TODO
 
@@ -96,6 +96,7 @@ Please make sure to update tests as appropriate.
 
 ## Contributors
 
+[Cygnus Digital Innovations](https://github.com/Cygnus-Digital-Innovations)
 [![Joaquin Beceiro](https://avatars0.githubusercontent.com/u/10049759?s=50 "Joaquin Beceiro")](https://github.com/JoaquinBeceiro)
 [<img src="https://avatars0.githubusercontent.com/u/50332377" width="50"/>](https://github.com/Rubinjo)
 
