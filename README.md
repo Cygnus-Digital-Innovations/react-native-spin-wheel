@@ -1,7 +1,7 @@
-# react-native-wheel-of-fortune
+# react-native-spin-wheel
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/516712bad4032cba5439/maintainability)](https://codeclimate.com/github/eftalyurtseven/react-native-wheel-of-fortune)
-[![Download](https://img.shields.io/npm/dm/react-native-wheel-of-fortune.svg)](https://github.com/Cygnus-Digital-Innovations/react-native-spin-wheel)
+[![Maintainability](https://api.codeclimate.com/v1/badges/516712bad4032cba5439/maintainability)](https://codeclimate.com/github/eftalyurtseven/react-native-spin-wheel)
+[![Download](https://img.shields.io/npm/dm/react-native-spin-wheel.svg)](https://github.com/Cygnus-Digital-Innovations/react-native-spin-wheel)
 
 Wheel of fortune component for React Native
 
@@ -9,12 +9,12 @@ Wheel of fortune component for React Native
 
 ## Installation
 
-Use the package manager npm and yarn to install react-native-wheel-of-fortune.
+Use the package manager npm and yarn to install react-native-spin-wheel.
 
 ```bash
-yarn add react-native-wheel-of-fortune
+yarn add react-native-spin-wheel
 # or using npm
-npm i react-native-wheel-of-fortune --save
+npm i react-native-spin-wheel --save
 ```
 
 ## Dependencies
@@ -24,7 +24,7 @@ WheelOfFortune is dependent on [react-native-svg](https://github.com/react-nativ
 ## Import
 
 ```js
-import WheelOfFortune from "react-native-wheel-of-fortune";
+import WheelOfFortune from "react-native-spin-wheel";
 ```
 
 ## Properties
@@ -32,17 +32,17 @@ import WheelOfFortune from "react-native-wheel-of-fortune";
 | Property               | Type                     | Default         | Desc                                     |
 | ---------------------- | ------------------------ | --------------- | ---------------------------------------- |
 | rewards _(required)_   | `Array`                  | -               | Set Rewards                              |
-| winner                 | `Number`                 | random          |  Set winner index                        |
-| colors                 | `Array`                  |  Default Colors | Segment background colors                |
+| winner                 | `Number`                 | random          |  Set winner index                        |
+| colors                 | `Array`                  |  Default Colors | Segment background colors                |
 | duration _(ms)_        | `Number`                 | 10000           | Completion time (ms)                     |
-| getWinner _(required)_ |  `callback(value,index)` |  -              | Winner value and index callback function |
-| backgroundColor        | `String`                 | #FFFFFF         |  Wheel background color                  |
+| getWinner _(required)_ |  `callback(value,index)` |  -              | Winner value and index callback function |
+| backgroundColor        | `String`                 | #FFFFFF         |  Wheel background color                  |
 | borderWidth            | `Number`                 | 2               | Wheel border width                       |
-| borderColor            |  `String`                |  #FFFFFF        | Wheel border color                       |
-| textColor              | `String`                 |  #FFFFFF        | Rewards text color                       |
+| borderColor            |  `String`                |  #FFFFFF        | Wheel border color                       |
+| textColor              | `String`                 |  #FFFFFF        | Rewards text color                       |
 | knobSize               | `Number`                 | 20              | Knob size                                |
-| knobSource             | `Path`                   | knob.png        |  Knob source                             |
-| playButton             |  `render()`              | example         | Render method for tap to play button     |
+| knobSource             | `Path`                   | knob.png        |  Knob source                             |
+| playButton             |  `render()`              | example         | Render method for tap to play button     |
 | innerRadius            | `Number`                 | 100             | Set inner radius size                    |
 | innerRadius            | `Number`                 | 100             | Set inner radius size                    |
 | textAngle              | `String`                 | horizontal      | Set angle of reward text                 |
